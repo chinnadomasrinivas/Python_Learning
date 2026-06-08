@@ -1,0 +1,5 @@
+num_1 = input()
+num_2 = input()
+L = len(num_2)
+result = int(num_1[0]) < int(num_2[L-1])
+print(result)
