@@ -1,0 +1,5 @@
+A = int(input("enter the first side:"))
+B = int(input("enter the second side:"))
+C = int(input("enter the third side:"))
+result = (A+B>C)and (A+C>B)and (B+C>A)
+print(result)

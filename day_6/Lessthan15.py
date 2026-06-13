@@ -1,0 +1,5 @@
+num_1 = int(input("Enter the first num :"))
+num_2 = int(input("Enter the second num:"))
+num_3 = int(input("Enter the third num :"))
+result = (num_1 <15 or num_2<15 or num_3<15)
+print(result)

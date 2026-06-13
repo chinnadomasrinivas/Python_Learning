@@ -1,0 +1,6 @@
+A = input("Enter the number:")
+first_digit =int( A[0])
+second_digit = int( A[1])
+third_digit = int(A[2])
+result = (first_digit == second_digit == third_digit)
+print(result)
