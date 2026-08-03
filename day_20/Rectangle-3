@@ -1,0 +1,7 @@
+M = int(input("Enter the numberof rows:"))
+N = int(input("Enter the number of columns:"))
+count = 1 
+while count <= M:
+    result = (str(count)+" ")*N 
+    print(result)
+    count = count+1 
